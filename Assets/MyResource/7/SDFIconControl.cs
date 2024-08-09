@@ -7,7 +7,7 @@ public class SDFIconControl : MonoBehaviour,IPointerEnterHandler,IPointerExitHan
 {
     private Material mat;
     private Sequence sequence;
-    [SerializeField] private Vector2 stepFromTo = new Vector2(1.3f, 0.95f);
+    [SerializeField] private Vector2 stepFromTo = new Vector2(1.25f, 0.95f);
     [SerializeField] private Vector3 scaleFromToInit = new Vector3(8f, 4f, 6f);
     // Init
     [SerializeField, ColorUsage(true, true)] private Color ColorEdge;
