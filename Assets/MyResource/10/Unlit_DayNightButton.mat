@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Unlit_DayNightButton
+  m_Shader: {fileID: 4800000, guid: 6640af4de44b10d47918af23f80896de, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _CloudSize: 5
+    - _HighLightBlur: 0.14
+    - _HoleShadowBlur: 0.1
+    - _HoleShadowSize: 0.02
+    - _ScaleOffset: 2.452381
+    - _ShadowBlur: 0.24
+    - _ShadowRadius: 1.32
+    - _StarBlink: 1
+    - _StarSize: 3
+    - _StarStrenth: 50
+    - _SunBlur: 0.05
+    - _SunPos: -1.6
+    - _SunShadowLightBlur: 0.14
+    - _SunShadowLightSize1: 0.78
+    - _SunShadowLightSize2: 0.81
+    - _SunSize: 0.75
+    - _UVScale: 2
+    m_Colors:
+    - _Circle1ColorDay: {r: 0.4941176, g: 0.6745098, b: 0.8470588, a: 1}
+    - _Circle1ColorNight: {r: 0.4, g: 0.4196078, b: 0.4862745, a: 1}
+    - _Circle2ColorDay: {r: 0.36862746, g: 0.5882353, b: 0.8039216, a: 1}
+    - _Circle2ColorNight: {r: 0.2352941, g: 0.27058825, b: 0.3529412, a: 1}
+    - _Circle3ColorDay: {r: 0.2901961, g: 0.5372549, b: 0.7764706, a: 1}
+    - _Circle3ColorNight: {r: 0.1529412, g: 0.1882353, b: 0.2705882, a: 1}
+    - _Circle3EdgeAlpha: {r: 2.04, g: 0.31, b: 0.6, a: 0}
+    - _Circle3Range: {r: 1.5, g: 2.4, b: 3.3, a: 0.8}
+    - _Circle4ColorDay: {r: 0.2627451, g: 0.5137255, b: 0.76862746, a: 1}
+    - _Circle4ColorNight: {r: 0.1098039, g: 0.14509805, b: 0.2470588, a: 1}
+    - _CloudPos: {r: 0.6, g: -1.32, b: 0, a: 0}
+    - _DayColor: {r: 0.29556784, g: 0.54267836, b: 0.7735849, a: 1}
+    - _HighLightColor: {r: 0.9433962, g: 0.87195826, b: 0.20914915, a: 1}
+    - _HighLightNightColor: {r: 1, g: 0.9801122, b: 0.8160377, a: 1}
+    - _HoleCenterX: {r: 0.31, g: -0.11, b: -0.31, a: 0}
+    - _HoleCenterY: {r: 0.06, g: -0.35, b: 0.24, a: 0}
+    - _HoleShadowColor: {r: 0.4, g: 0.4, b: 0.4, a: 1}
+    - _HoleSize: {r: 0.24, g: 0.16, b: 0.15, a: 0}
+    - _MoonColor: {r: 0.76862746, g: 0.7921569, b: 0.8431373, a: 1}
+    - _ShadowColor: {r: 0.23313455, g: 0.2924528, b: 0.2924528, a: 1}
+    - _ShadowColorOut: {r: 0, g: 0, b: 0, a: 1}
+    - _ShadowPos: {r: -0.62, g: 0.04, b: 0, a: 0}
+    - _ShadowSize: {r: 3.5, g: 1.4, b: 0.64, a: 0.9}
+    - _StarColor: {r: 1, g: 1, b: 1, a: 1}
+    - _StarsBlink: {r: 1, g: 1, b: 1, a: 1}
+    - _StarsBlinkG2: {r: 1, g: 1, b: 1, a: 1}
+    - _StarsLen: {r: 1, g: 1, b: 1, a: 1}
+    - _StarsLenG2: {r: 1, g: 1, b: 1, a: 1}
+    - _StarsPosX: {r: -1.8, g: -1.6, b: -1.1, a: -1}
+    - _StarsPosXG2: {r: -0.65, g: -0.1, b: 0.06, a: 0.4}
+    - _StarsPosY: {r: 0.3, g: -0.4, b: 0.5, a: -0.6}
+    - _StarsPosYG2: {r: -0.09, g: 0.36, b: -0.48, a: 0.12}
+    - _StarsRound: {r: 0, g: 0, b: 0, a: 0}
+    - _StarsRoundG2: {r: 0, g: 0, b: 0, a: 0}
+    - _StarsSize: {r: 2.4, g: 2, b: 3.4, a: 1.5}
+    - _StarsSizeG2: {r: 2.2, g: 1.6, b: 2.4, a: 3}
+    - _StarsStrenth: {r: 50, g: 50, b: 50, a: 160}
+    - _StarsStrenthG2: {r: 100, g: 100, b: 80, a: 45}
+    - _SunColor: {r: 0.9811321, g: 0.66880375, b: 0.06016379, a: 1}
+    - _SunPos: {r: -1.5, g: 0, b: 0, a: 0}
+    - _SunShadowLightPos1: {r: -0.03, g: 0.04, b: 0, a: 0}
+    - _SunShadowLightPos2: {r: 0.04, g: -0.05, b: 0, a: 0}
+    - _TestColor1: {r: 1, g: 0.87222326, b: 0.4481132, a: 0}
+    - _TestColor2: {r: 0.26633143, g: 0.29187435, b: 0.3301887, a: 0}
+  m_BuildTextureStacks: []
